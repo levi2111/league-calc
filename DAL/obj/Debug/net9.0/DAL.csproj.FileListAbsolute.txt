@@ -13,3 +13,4 @@ C:\Users\levit\source\repos\LeagueCalculator\DAL\obj\Debug\net9.0\DAL.csproj.Ass
 C:\Users\levit\source\repos\LeagueCalculator\DAL\bin\Debug\net9.0\Core.dll
 C:\Users\levit\source\repos\LeagueCalculator\DAL\bin\Debug\net9.0\Core.pdb
 C:\Users\levit\source\repos\LeagueCalculator\DAL\obj\Debug\net9.0\DAL.csproj.Up2Date
+C:\Users\levit\source\repos\LeagueCalculator\DAL\obj\Debug\net9.0\DAL.sourcelink.json

@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class FormatterService
+    public static class FormatterService
     {
-        public FormatterService() { }
-
-        public string GetCDragonChampionName(string championName)
+        public static string GetCDragonChampionName(string championName)
         {
             string noSpaces = championName.Replace(" ", "");
             string noApostrophes = championName.Replace("'", "");

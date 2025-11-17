@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Core.Models
@@ -25,6 +26,7 @@ namespace Core.Models
         public double TotalRegen { get; private set; }
         public double CurrentAmount { get; private set; }
 
+        [JsonConstructor]
         public PrimaryAbilityResource(int? arType, double arBase, double arBaseStaticRegen, double? arPerLevel, double? arRegenPerLevel, double? arIncrements)
         {
             this.arType = arType;

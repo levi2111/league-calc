@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Core.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,19 +11,19 @@ namespace Core.Interfaces
     {
         string Name { get; }
         string Patch {  get; }
-        double BaseHP { get; }
-        double HPPerLevel { get; }
-        IAbilityResource PrimaryAbilityResource { get; }
-        double BaseAD { get; }
-        double ADPerLevel { get; }
-        double BaseArmor { get; }
-        double ArmorPerLevel { get; }
-        double BaseMR { get; }
-        double MRPerLevel { get; }
-        double BaseMovementSpeed { get; }
-        double AttackRange { get; }
-        double BaseAttackSpeed { get; }
-        double AttackSpeedPerLevel { get; }
-        double AttackSpeedRatio { get; }
+        float BaseHP { get; }
+        float HPPerLevel { get; }
+        PrimaryAbilityResource PrimaryAbilityResource { get; }
+        float BaseAD { get; }
+        float ADPerLevel { get; }
+        float BaseArmor { get; }
+        float ArmorPerLevel { get; }
+        float BaseMR { get; }
+        float MRPerLevel { get; }
+        float BaseMovementSpeed { get; }
+        float AttackRange { get; }
+        float BaseAttackSpeed { get; }
+        float AttackSpeedPerLevel { get; }
+        float AttackSpeedRatio { get; }
     }
 }

@@ -10,8 +10,8 @@ namespace Core.Models
     {
         private readonly int id; // idk how to implement this, do i even want it here?
 
-        public string Name;
-        public Item?[] Items;
+        public string Name { get; private set; }
+        public Item[] Items;
 
         public Inventory()
         {

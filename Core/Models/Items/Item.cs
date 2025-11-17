@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Models
+namespace Core.Models.Item
 {
     public class Item
     {
-        public int Id { get; }
-        public string Name { get; }
-        public Dictionary<string, int> Stats { get; }
+        public readonly int Id;
+        public readonly string Name;
+        public Dictionary<string, int> Stats { get; private set; }
         public double TotalCost;
         public double CombineCost;
         public int[] From;

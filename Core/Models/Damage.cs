@@ -32,14 +32,14 @@ namespace Core.Models
             else if (DamageType == DamageType.Physical)
             {
                 double functionalResistance = Receiver.Armor *
-                                        (1 - Sender.ArmorPen) - Sender.Lethality;
+                                        (1 - Sender.Stats["ArmorPen"]) - Sender.Stats["Lethality"];
                 PostMitigationDamage = GetPostMitigationDamage(PreMitigationDamage,
                                                         functionalResistance);
             }
             else if (DamageType == DamageType.Magical)
             {
                 double functionalResistance = Receiver.MR *
-                                        (1 - Sender.MagicPen) - Sender.FlatMagicPen;
+                                        (1 - Sender.Stats["MagicPen"]) - Sender.Stats["FlatMagicPen"];
                 PostMitigationDamage = GetPostMitigationDamage(PreMitigationDamage,
                                                         functionalResistance);
             }
@@ -55,6 +55,16 @@ namespace Core.Models
             {
                 return rawDmg * (2 - 100 / (100 - functionalResistance));
             }
+        }
+
+        public override string ToString()
+        {
+            string s = $"Raw damage: {Math.Round(PreMitigationDamage)}\n" +
+                $"Damage: {Math.Round(PostMitigationDamage)}\n" +
+                $"Damage type: {DamageType}" +
+                $"Damage source: {Sender}\n" +
+                $"Damage target: {Receiver}";
+            return s;
         }
     }
 }

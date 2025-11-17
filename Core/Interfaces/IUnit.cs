@@ -9,7 +9,7 @@ namespace Core.Interfaces
     public interface IUnit
     {
         int Level { get; }
-        double HP { get; }
-        IStats Stats { get; set; }
+        float CurrentHP { get; }
+        Dictionary<string, float> Stats { get; }
     }
 }

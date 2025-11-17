@@ -8,9 +8,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 
 // references to local software layers
-builder.Services.AddScoped<IReadOnlyChampionRepository, TestRepository>();
+builder.Services.AddScoped<IBaseChampionRepository, TestRepository>();
+
+builder.Services.AddDistributedMemoryCache();
+
+builder.Services.AddSession();
 
 var app = builder.Build();
+
+app.UseSession();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

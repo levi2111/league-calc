@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core.Interfaces
 {
-    public interface IReadOnlyChampionRepository
+    public interface IBaseChampionRepository
     {
         Task<BaseChampion?> GetByName(string name); // default latest patch
         Task<BaseChampion?> GetByNameAndPatch(string name, string patch);

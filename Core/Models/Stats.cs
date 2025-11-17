@@ -1,4 +1,5 @@
 ﻿using Core.Interfaces;
+using Core.Models.Effects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,11 +15,13 @@ namespace Core.Models
         public float CurrentHP { get; set; }
         public float BaseHP { get; set; }
         public float BonusHP { get; set; }
-        public float MaxHP {
+        public float MaxHP
+        {
             get
             {
                 return BaseHP + BonusHP;
             }
+        }
         public float HPPerLevel { get; set; }
          
         public float HPRegen { get; set; }
@@ -35,7 +38,6 @@ namespace Core.Models
         public float ADPerLevel { get; set; }
          
         public float AP { get; set; }
-        public 
         public float BaseAttackSpeed { get; set; }
         public float BonusAttackSpeed { get; set; }
         public float AttackSpeed { get; }
@@ -75,12 +77,12 @@ namespace Core.Models
         public float Lifesteal { get; set; }
         public float Omnivamp { get; set; }
 
-        List<Effect> ActiveEffects =
+        List<Effect> ActiveEffects = new List<Effect>();
 
         public Stats(int level, float baseHP, float hPPerLevel, float hPRegen, float baseHPRegen, float bonusHPRegen, float hPRegenPerLevel, PrimaryAbilityResource? primaryAbilityResource, IAbilityResource? secondaryAbilityResource, float baseAD, float bonusAD, float aD, float aDPerLevel, float aP, float baseAttackSpeed, float bonusAttackSpeed, float attackSpeed, float attackSpeedRatio, float attackSpeedPerLevel, float attackRange, float baseArmor, float bonusArmor, float armor, float armorPerLevel, float baseMR, float bonusMR, float mR, float mRPerLevel, float abilityHaste, float lethality, float armorPen, float flatMagicPen, float magicPen, float critChance, float critDamageMultiplier, float critDamage, float baseMoveSpeed, float bonusMoveSpeed, float moveSpeed, float tenacity, float slowResistance, float healAndShieldPower, float lifesteal, float omnivamp, float gold, float xP, float shield)
         {
             Level = 1;
-            CurrentHP = maxHP;
+            CurrentHP = baseHP;
             BaseHP = baseHP;
             BonusHP = 0;
             HPPerLevel = hPPerLevel;

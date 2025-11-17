@@ -1,11 +1,28 @@
 ﻿@page
 @model UI.Pages.TestModel
-@if (Model.Samira is not null)
-{
-	<p>@Model.Samira.Patch</p>
-	<p>@Model.Samira</p>
-}
-else
-{
-	<p>:(</p>
-}
+
+<button id="q">Q</button>
+
+<div id="q-dmg">
+	0 damage lol
+</div>
+
+<script>
+	var qDmg = document.getElementById("q-dmg");
+
+	document.getElementById("q").addEventListener("click", async function () {
+		const response = await fetch("/Test?handler=GetAbilityDamage", {
+			method: "POST",
+			headers: {
+				"Content-Type": "text/plain"
+			},
+			body: "Q"
+		});
+
+		const data = await response.json();
+
+		qDmg.textContent = data;
+		qDmg.textContent += "hello :D";
+		console.log("event listener works");
+	});
+</script>

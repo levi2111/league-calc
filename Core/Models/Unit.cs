@@ -1,152 +1,118 @@
 ﻿using Core.Interfaces;
+using Core.Models.Effects;
+using Core.Models.Results;
 using System;
 using System.Buffers.Text;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Core.Models
 {
-    public class Unit : IUnit
+    public abstract class Unit : IUnit
     {
+        public static int ID_COUNTER = 0;
+
+        public int Id { get; }
         public virtual int Level { get; protected set; }
-        public double CurrentHP { get; set; }
-        public double MaxHP { get; set; }
-        public Inventory Inventory { get; }
+        public float CurrentHP { get; set; }
+        public Inventory Inventory { get; set; }
         public bool IsMelee { get; }
+        public Dictionary<string, float> Stats { get; set; } = new Dictionary<string, float>
+        {
+            ["Level"] = 0,
+            ["BaseHP"] = 0,
+            ["BonusHP"] = 0,
+            ["MaxHP"] = 0,
+            ["HPPerLevel"] = 0,
+            ["BaseAD"] = 0,
+            ["BonusAD"] = 0,
+            ["ADPerLevel"] = 0,
+            ["BaseAttackSpeed"] = 0,
+            ["BonusAttackSpeed"] = 0,
+            ["AttackSpeed"] = 0,
+            ["AttackSpeedRatio"] = 0,
+            ["AttackSpeedPerLevel"] = 0,
+            ["AttackRange"] = 0,
+            ["BaseArmor"] = 0,
+            ["BonusArmor"] = 0,
+            ["ArmorPerLevel"] = 0,
+            ["BaseMR"] = 0,
+            ["BonusMR"] = 0,
+            ["MRPerLevel"] = 0,
+            ["BaseMoveSpeed"] = 0,
+            ["BonusMoveSpeed"] = 0
+        };
 
-        public double AttackRange;
-        public double HP 
-        { 
-            get
-            {
-                return BaseHP + BonusHP;
-            } 
-        }
-        public double AD
-        {
-            get
-            {
-                return BaseAD + BonusAD;
-            }
-        }
-        public double AP;
-        public double AttackSpeed 
-        { 
-            get
-            {
-                return BaseAttackSpeed + AttackSpeedRatio * BonusAttackSpeed;
-            } 
-        }
-        public double Armor
-        {
-            get
-            {
-                return BaseArmor + BonusArmor;
-            }
-        }
-        public double MR
-        {
-            get
-            {
-                return BaseMR + BonusMR;
-            }
-        }
-        public double MP
-        {
-            get
-            {
-                return BaseMP + BonusMP;
-            }
-        }
-        public double MPRegen
-        {
-            get
-            {
-                return BaseMPRegen + BonusMPRegen;
-            }
-        }
-        public double HPRegen
-        {
-            get
-            {
-                return BaseHPRegen + BonusHPRegen;
-            }
-        }
-
-        public double CDR;
-        public double Lethality;
-        public double ArmorPen;
-        public double FlatMagicPen;
-        public double MagicPen;
-        public double CritChance;
-        public double CritDamage;
-
-        public double AttackSpeedRatio;
-
-        public double BaseHP;
-        public double BonusHP;
-        public double BaseAD;
-        public double BonusAD;
-        public double BaseAttackSpeed;
-        public double BonusAttackSpeed;
-        public double BaseArmor;
-        public double BonusArmor;
-        public double BaseMR;
-        public double BonusMR;
-        public double BaseMP;
-        public double BonusMP;
-        public double BaseMPRegen;
-        public double BonusMPRegen;
-        public double BaseHPRegen;
-        public double BonusHPRegen;
+        public float MaxHP => Stats["BaseHP"] + Stats["BonusHP"];
+        public float AD => Stats["BaseAD"] + Stats["BonusAD"];
+        public float AP = 0;
+        public float AttackSpeed => Stats["BaseAttackSpeed"] + Stats["AttackSpeedRatio"] * Stats["BonusAttackSpeed"];
+        public float Armor => Stats["BaseArmor"] + Stats["BonusArmor"];
+        public float MR => Stats["BaseMR"] + Stats["BonusMR"];
+        public float HPRegen => Stats["BaseHPRegen"] + Stats["BonusHPRegen"];
+        public float AbilityHaste = 0;
+        public float MoveSpeed => Stats["BaseMoveSpeed"] + Stats["BonusMoveSpeed"];
+        public List<Effect> Effects = new();
 
         public Unit()
         {
-            Inventory = new Inventory();
-            CDR = 0;
-            Lethality = 0;
-            ArmorPen = 0;
-            FlatMagicPen = 0;
-            MagicPen = 0;
-            AttackSpeedRatio = 1;
-            AttackRange = 100;
-            CritChance = 0;
-            CritDamage = 1.75;
+            Id = ID_COUNTER;
+            ID_COUNTER++;
 
+            Stats["Level"] = 1;
+            Stats["CurrentHP"] = 100;
+            Stats["BaseHP"] = 100;
+            Stats["BonusHP"] = 0;
+            Stats["MaxHP"] = 100;
+            Stats["HPPerLevel"] = 0;
+            Stats["BaseAD"] = 0;
+            Stats["BonusAD"] = 0;
+            Stats["AD"] = 0;
+            Stats["ADPerLevel"] = 0;
+            Stats["AP"] = 0;
+            Stats["BaseAttackSpeed"] = 0;
+            Stats["BonusAttackSpeed"] = 0;
+            Stats["AttackSpeed"] = 0;
+            Stats["AttackSpeedRatio"] = 0;
+            Stats["AttackSpeedPerLevel"] = 0;
+            Stats["AttackRange"] = 0;
+            Stats["BaseArmor"] = 0;
+            Stats["BonusArmor"] = 0;
+            Stats["Armor"] = 0;
+            Stats["ArmorPerLevel"] = 0;
+            Stats["BaseMR"] = 0;
+            Stats["BonusMR"] = 0;
+            Stats["MR"] = 0;
+            Stats["MRPerLevel"] = 0;
+            Stats["AbilityHaste"] = 0;
+            Stats["BaseMoveSpeed"] = 0;
+            Stats["BonusMoveSpeed"] = 0;
+            Stats["MoveSpeed"] = 0;
+            Stats["BaseHPRegen"] = 0;
+            Stats["BonusHPRegen"] = 0;
+
+            Inventory = new Inventory();
             IsMelee = true;
             CurrentHP = 100;
-            BaseHP = 100;
-            BonusHP = 0;
-            BaseAD = 0;
-            BonusAD = 0;
-            BaseAttackSpeed = 0.67;
-            BonusAttackSpeed = 0;
-            BaseArmor = 0;
-            BonusArmor = 0;
-            BaseMR = 0;
-            BonusMR = 0;
-            BaseMP = 600;
-            BonusMP = 0;
-            BaseMPRegen = 0;
-            BonusMPRegen = 0;
-            BaseHPRegen = 0;
-            BonusHPRegen = 0;
         }
 
-        public void TakeDamage(Damage d)
+        public virtual void TakeDamage(double damage)
         {
-            double damage = d.PostMitigationDamage;
-
-            if (CurrentHP - damage<= 0) { CurrentHP = 0; }
-            else { CurrentHP -= damage; }
+            if (CurrentHP - damage <= 0) { CurrentHP = 0; }
+            else { CurrentHP -= (float)damage; }
         }
 
-        public Damage BasicAttack(Unit target)
+        public virtual BasicAttackResult BasicAttack(Unit target)
         {
-            return new Damage(AD, DamageType.Physical, this, target);
+            Damage dmg = new Damage(AD, DamageType.Physical, this, target);
+            target.TakeDamage(dmg.PostMitigationDamage);
+
+            BasicAttackResult basicAttackResult = new(this, target);
+            return basicAttackResult;
         }
     }
 }

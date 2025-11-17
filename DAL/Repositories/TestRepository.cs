@@ -12,14 +12,12 @@ using System.Xml.Linq;
 
 namespace DAL.Repositories
 {
-    public class TestRepository : IReadOnlyChampionRepository
+    public class TestRepository : IBaseChampionRepository
     {
-        private FormatterService _formatter;
         private string latestPatch = "25.23";
 
         public TestRepository()
         {
-            _formatter = new FormatterService();
             Console.WriteLine("initialized");
         }
 
@@ -38,65 +36,68 @@ namespace DAL.Repositories
             else
                 arType = null;
 
-            double arBase;
+            float arBase;
             if (par.TryGetProperty("arBase", out var arBaseProp))
-                arBase = arBaseProp.GetDouble();
+                arBase = (float)arBaseProp.GetDouble();
             else
                 arBase = 0;
 
-            double arBaseStaticRegen;
+            float arBaseStaticRegen;
             if (par.TryGetProperty("arBaseStaticRegen", out var arBaseStaticRegenProp))
-                arBaseStaticRegen = arBaseStaticRegenProp.GetDouble();
+                arBaseStaticRegen = (float)arBaseStaticRegenProp.GetDouble();
             else
                 arBaseStaticRegen = 0;
 
-            double? arPerLevel;
+            float? arPerLevel;
             if (par.TryGetProperty("arPerLevel", out var arPerLevelProp))
-                arPerLevel = arPerLevelProp.GetDouble();
+                arPerLevel = (float)arPerLevelProp.GetDouble();
             else
                 arPerLevel = null;
 
-            double? arRegenPerLevel;
+            float? arRegenPerLevel;
             if (par.TryGetProperty("arRegenPerLevel", out var arRegenPerLevelProp))
-                arRegenPerLevel = arRegenPerLevelProp.GetDouble();
+                arRegenPerLevel = (float)arRegenPerLevelProp.GetDouble();
             else
                 arRegenPerLevel = null;
 
-            double? arIncrements;
+            float? arIncrements;
             if (par.TryGetProperty("arIncrements", out var arIncrementsProp))
-                arIncrements = arIncrementsProp.GetDouble();
+                arIncrements = (float)arIncrementsProp.GetDouble();
             else
                 arIncrements = null;
 
-            IAbilityResource primaryAbilityResource = new PrimaryAbilityResource(
+            PrimaryAbilityResource primaryAbilityResource = new PrimaryAbilityResource(
                 arType, arBase, arBaseStaticRegen, arPerLevel, arRegenPerLevel, arIncrements);
 
-            double baseHP = root.GetProperty("baseDamage").GetDouble();
-            double hpPerLevel = root.GetProperty("hpPerLevel").GetDouble();
-            double baseStaticHPRegen = root.GetProperty("baseStaticHPRegen").GetDouble();
-            double hpRegenPerLevel = root.GetProperty("hpRegenPerLevel").GetDouble();
-            double baseAD = root.GetProperty("baseDamage").GetDouble();
-            double adPerLevel = root.GetProperty("damagePerLevel").GetDouble();
-            double baseArmor = root.GetProperty("baseArmor").GetDouble();
-            double armorPerLevel = root.GetProperty("armorPerLevel").GetDouble();
-            double baseMR = root.GetProperty("baseSpellBlock").GetDouble();
-            double mrPerLevel = root.GetProperty("spellBlockPerLevel").GetDouble();
-            double baseMovementSpeed = root.GetProperty("baseMoveSpeed").GetDouble();
-            double attackRange = root.GetProperty("attackRange").GetDouble();
-            double baseAttackSpeed = root.GetProperty("attackSpeed").GetDouble();
-            double attackSpeedPerLevel = root.GetProperty("attackSpeedPerLevel").GetDouble();
-            double attackSpeedRatio = root.GetProperty("attackSpeedRatio").GetDouble();
+            float baseHP = (float)root.GetProperty("baseDamage").GetDouble();
+            float hpPerLevel = (float)root.GetProperty("hpPerLevel").GetDouble();
+            float baseStaticHPRegen = (float)root.GetProperty("baseStaticHPRegen").GetDouble();
+            float hpRegenPerLevel = (float)root.GetProperty("hpRegenPerLevel").GetDouble();
+            float baseAD = (float)root.GetProperty("baseDamage").GetDouble();
+            float adPerLevel = (float)root.GetProperty("damagePerLevel").GetDouble();
+            float baseArmor = (float)root.GetProperty("baseArmor").GetDouble();
+            float armorPerLevel = (float)root.GetProperty("armorPerLevel").GetDouble();
+            float baseMR = (float)root.GetProperty("baseSpellBlock").GetDouble();
+            float mrPerLevel = (float)root.GetProperty("spellBlockPerLevel").GetDouble();
+            float baseMovementSpeed = (float)root.GetProperty("baseMoveSpeed").GetDouble();
+            float attackRange = (float)root.GetProperty("attackRange").GetDouble();
+            float baseAttackSpeed = (float)root.GetProperty("attackSpeed").GetDouble();
+            float attackSpeedPerLevel = (float)root.GetProperty("attackSpeedPerLevel").GetDouble();
+            float attackSpeedRatio = (float)root.GetProperty("attackSpeedRatio").GetDouble();
+
+            string name = "Samira";
+            string formattedName = FormatterService.GetCDragonChampionName("Samira");
 
             BaseChampion Samira = new(
-                    "Samira", latestPatch, baseHP, hpPerLevel, baseStaticHPRegen, hpRegenPerLevel,
+                    name, formattedName, latestPatch, baseHP, hpPerLevel, baseStaticHPRegen, hpRegenPerLevel,
                     primaryAbilityResource, baseAD, adPerLevel, baseArmor, armorPerLevel, baseMR, mrPerLevel,
                     baseMovementSpeed, attackRange, baseAttackSpeed, attackSpeedPerLevel, hpPerLevel);
             return Samira;
         }
 
-        public async Task<BaseChampion> GetByName(string name)
+        public async Task<BaseChampion?> GetByName(string name)
         {
-            if (_formatter.GetCDragonChampionName(name).ToLower() == "samira")
+            if (FormatterService.GetCDragonChampionName(name).ToLower() == "samira")
             {
                 return await GetSamira();
             }

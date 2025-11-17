@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Core.Models
@@ -10,45 +11,50 @@ namespace Core.Models
     public class BaseChampion : IBaseChampion
     {
         public string Name { get; }
+        public string FormattedName { get; }
         public string Patch { get; }
-        public double BaseHP { get; }
-        public double HPPerLevel { get; }
-        public double BaseStaticHPRegen { get; }
-        public double HPRegenPerLevel { get; }
-        public IAbilityResource PrimaryAbilityResource {  get; }
-        public double BaseAD { get; }
-        public double ADPerLevel { get; }
-        public double BaseArmor { get; }
-        public double ArmorPerLevel { get; }
-        public double BaseMR { get; }
-        public double MRPerLevel { get; }
-        public double BaseMovementSpeed { get; }
-        public double AttackRange { get; }
-        public double BaseAttackSpeed { get; }
-        public double AttackSpeedPerLevel { get; }
-        public double AttackSpeedRatio { get; }
+        public float BaseHP { get; }
+        public float HPPerLevel { get; }
+        public float BaseStaticHPRegen { get; }
+        public float HPRegenPerLevel { get; }
+        public PrimaryAbilityResource PrimaryAbilityResource {  get; }
+        public float BaseAD { get; }
+        public float ADPerLevel { get; }
+        public float BaseArmor { get; }
+        public float ArmorPerLevel { get; }
+        public float BaseMR { get; }
+        public float MRPerLevel { get; }
+        public float BaseMovementSpeed { get; }
+        public float AttackRange { get; }
+        public float BaseAttackSpeed { get; }
+        public float AttackSpeedPerLevel { get; }
+        public float AttackSpeedRatio { get; }
+        public Dictionary<string, string> AbilityScriptNames { get; }
 
+        [JsonConstructor]
         public BaseChampion(
             string name,
+            string formattedName,
             string patch,
-            double baseHP,
-            double hpPerLevel,
-            double baseStaticHPRegen,
-            double hpRegenPerLevel,
-            IAbilityResource primaryAbilityResource,
-            double baseAD,
-            double adPerLevel,
-            double baseArmor,
-            double armorPerLevel,
-            double baseMR,
-            double mrPerLevel,
-            double baseMovementSpeed,
-            double attackRange,
-            double baseAttackSpeed,
-            double attackSpeedPerLevel,
-            double attackSpeedRatio)
+            float baseHP,
+            float hpPerLevel,
+            float baseStaticHPRegen,
+            float hpRegenPerLevel,
+            PrimaryAbilityResource primaryAbilityResource,
+            float baseAD,
+            float adPerLevel,
+            float baseArmor,
+            float armorPerLevel,
+            float baseMR,
+            float mrPerLevel,
+            float baseMovementSpeed,
+            float attackRange,
+            float baseAttackSpeed,
+            float attackSpeedPerLevel,
+            float attackSpeedRatio)
         {
             Name = name;
+            FormattedName = formattedName;
             Patch = patch;
             BaseHP = baseHP;
             HPPerLevel = hpPerLevel;
@@ -66,6 +72,13 @@ namespace Core.Models
             BaseAttackSpeed = baseAttackSpeed;
             AttackSpeedPerLevel = attackSpeedPerLevel;
             AttackSpeedRatio = attackSpeedRatio;
+            AbilityScriptNames = new Dictionary<string, string>
+            {
+                { "Q", $"{formattedName}Q"},
+                { "W", $"{formattedName}W"},
+                { "E", $"{formattedName}E"},
+                { "R", $"{formattedName}R"}
+            };
         }
     }
 }

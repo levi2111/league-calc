@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Models
+namespace Core.Models.Abilities
 {
-    public class Effect
+    public class AbilityContext
     {
-
+        public Unit Caster;
     }
 }
