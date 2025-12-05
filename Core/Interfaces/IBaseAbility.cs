@@ -12,11 +12,7 @@ namespace Core.Interfaces
         int MaxRank { get; }
         DamageType DamageType { get; }
         double[] BaseDamage { get; }
-        Dictionary<string, double> Scalings { get; }
-        bool IsProjectile { get; }
-        bool ProcsOnHit { get; set; }
-        bool CanCrit { get; set; }
-        double? CritDamage { get; set; }
+        Dictionary<string, double[]> Scalings { get; }
         bool UnlockedByDefault { get; }
         bool UltimateAbility { get; }
     }

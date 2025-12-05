@@ -1,28 +1,340 @@
 ﻿@page
 @model UI.Pages.TestModel
+@using System.Text.Json
 
-<button id="q">Q</button>
+<link rel="stylesheet" href="~/css/site.css">
 
-<div id="q-dmg">
-	0 damage lol
+<div class="container">
+	<div class="header">
+		<h1>LoL Damage Calculator</h1>
+	</div>
+
+	<div class="champion-section">
+		<select id="champion-select">
+			<option value="Samira">Samira</option>
+		</select>
+	</div>
+
+	<div class="ability-section">
+		<button id="q" class="ability-btn">Q</button>
+		<button id="w" class="ability-btn">W</button>
+		<button id="e" class="ability-btn">E</button>
+		<button id="r" class="ability-btn">R</button>
+
+		<div id="q-dmg" class="ability-dmg-display">
+			Q damage:
+		</div>
+		<div id="w-dmg" class="ability-dmg-display">
+			W damage:
+		</div>
+		<div id="e-dmg" class="ability-dmg-display">
+			E damage:
+		</div>
+		<div id="r-dmg" class="ability-dmg-display">
+			R damage:
+		</div>
+	</div>
+
+	<label for="level-select">Level</label>
+	<select id="level-select">
+		<option value=1>1</option>
+		<option value=2>2</option>
+		<option value=3>3</option>
+		<option value=4>4</option>
+		<option value=5>5</option>
+		<option value=6>6</option>
+		<option value=7>7</option>
+		<option value=8>8</option>
+		<option value=9>9</option>
+		<option value=10>10</option>
+		<option value=11>11</option>
+		<option value=12>12</option>
+		<option value=13>13</option>
+		<option value=14>14</option>
+		<option value=15>15</option>
+		<option value=16>16</option>
+		<option value=17>17</option>
+		<option value=18>18</option>
+	</select>
+
+	<select id="item">Item</select>
+	<div class="lol-abilities">
+		<!-- Q Ability -->
+		<div class="lol-ability" data-max-rank="5">
+			<div class="lol-ability-header">
+				<div class="lol-ability-icon">Q</div>
+				<div class="lol-ability-name">Ability Q</div>
+			</div>
+			<div class="lol-rank-container">
+				<div class="lol-rank-dots"></div>
+				<div class="lol-rank-controls">
+					<button class="lol-rank-btn minus">−</button>
+					<button class="lol-rank-btn plus">+</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- W Ability -->
+		<div class="lol-ability" data-max-rank="5">
+			<div class="lol-ability-header">
+				<div class="lol-ability-icon">W</div>
+				<div class="lol-ability-name">Ability W</div>
+			</div>
+			<div class="lol-rank-container">
+				<div class="lol-rank-dots"></div>
+				<div class="lol-rank-controls">
+					<button class="lol-rank-btn minus">−</button>
+					<button class="lol-rank-btn plus">+</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- E Ability -->
+		<div class="lol-ability" data-max-rank="5">
+			<div class="lol-ability-header">
+				<div class="lol-ability-icon">E</div>
+				<div class="lol-ability-name">Ability E</div>
+			</div>
+			<div class="lol-rank-container">
+				<div class="lol-rank-dots"></div>
+				<div class="lol-rank-controls">
+					<button class="lol-rank-btn minus">−</button>
+					<button class="lol-rank-btn plus">+</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- R Ultimate -->
+		<div class="lol-ability" data-max-rank="3">
+			<div class="lol-ability-header">
+				<div class="lol-ability-icon ultimate">R</div>
+				<div class="lol-ability-name">Ultimate</div>
+			</div>
+			<div class="lol-rank-container">
+				<div class="lol-rank-dots"></div>
+				<div class="lol-rank-controls">
+					<button class="lol-rank-btn minus">−</button>
+					<button class="lol-rank-btn plus">+</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="lol-stats-panel">
+		<div class="lol-champ">
+			<div class="lol-champ-portrait">
+				<img src="https://raw.communitydragon.org/latest/game/assets/characters/samira/hud/samira_circle_0.png"/>
+			</div>
+			<div class="lol-champ-level">13</div>
+		</div>
+
+		<div class="lol-main">
+			<div class="lol-bars">
+				<div class="lol-bar lol-bar-hp">
+					<div class="lol-bar-fill" style="width: 72%;"></div>
+					<div class="lol-bar-label">
+						<span>HP</span>
+						<span>1370 / 1900</span>
+					</div>
+				</div>
+				<div class="lol-bar lol-bar-mana">
+					<div class="lol-bar-fill" style="width: 54%;"></div>
+					<div class="lol-bar-label">
+						<span>Mana</span>
+						<span>620 / 1150</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="lol-meta">
+				<div class="lol-gold">
+					<div class="lol-gold">Gold: 9.4k</div>
+				</div>
+
+				<div class="lol-stats-grid">
+					<div class="lol-stat">
+						<span class="lol-stat-label">AD</span>
+						<span class="lol-stat-value">214</span>
+					</div>
+					<div class="lol-stat">
+						<span class="lol-stat-label">AP</span>
+						<span class="lol-stat-value">0</span>
+					</div>
+					<div class="lol-stat">
+						<span class="lol-stat-label">AS</span>
+						<span class="lol-stat-value">1.32</span>
+					</div>
+					<div class="lol-stat">
+						<span class="lol-stat-label">Crit</span>
+						<span class="lol-stat-value">40%</span>
+					</div>
+					<div class="lol-stat">
+						<span class="lol-stat-label">Armor</span>
+						<span class="lol-stat-value">132</span>
+					</div>
+					<div class="lol-stat">
+						<span class="lol-stat-label">MR</span>
+						<span class="lol-stat-value">96</span>
+					</div>
+					<div class="lol-stat">
+						<span class="lol-stat-label">MS</span>
+						<span class="lol-stat-value">380</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<button id="saveConfigBtn">Save configuration to database</button>
 </div>
 
-<script>
+<script type="module">
 	var qDmg = document.getElementById("q-dmg");
+	var wDmg = document.getElementById("w-dmg");
+	var eDmg = document.getElementById("e-dmg");
+	var rDmg = document.getElementById("r-dmg");
 
-	document.getElementById("q").addEventListener("click", async function () {
+	var levelSelect = document.getElementById("level-select");
+	var championSelect = document.getElementById("champion-select");
+
+	var level = 1;
+
+	// fill item list and add item adding logic
+
+	function syncUIWithConfig(config) {
+		level = config.Level;
+		levelSelect.value = config.Level;
+		championSelect.value = config.ChampionName;
+		// still needs syncing for inventory and ability ranks
+	}
+
+	async function getAbilityDamage(ability) {
 		const response = await fetch("/Test?handler=GetAbilityDamage", {
 			method: "POST",
 			headers: {
-				"Content-Type": "text/plain"
+				"Content-Type": "application/json"
 			},
-			body: "Q"
+			body: JSON.stringify({
+				Ability: ability,
+				Level: level
+			})
 		});
-
 		const data = await response.json();
 
-		qDmg.textContent = data;
-		qDmg.textContent += "hello :D";
-		console.log("event listener works");
+		return Math.round(data.damage);
+	}
+
+	async function updateDamageDisplay() {
+		qDmg.textContent = await getAbilityDamage("Q");
+		wDmg.textContent = await getAbilityDamage("W");
+		eDmg.textContent = await getAbilityDamage("E");
+		rDmg.textContent = await getAbilityDamage("R");
+	}
+
+	function getTotalAbilityRank() {
+		let total = 0;
+
+		document.querySelectorAll('.lol-ability').forEach(ability => {
+		  const dots = ability.querySelectorAll('.lol-rank-dot.filled');
+		  total += dots.length;
+		});
+
+		return total;
+	}
+
+	// i want to update stored config on every action to use backend validation too,
+	// this is a temporary way to prove i can work with 3 layered architecture and use persistence with razor pages
+	async function saveConfig() {
+		const response = await fetch("/Test?handler=SaveConfig", {
+			method: "POST",
+			headers: {
+				"Content-Type": "application/json"
+			},
+			body: JSON.stringify({
+				Level: levelSelect.value,
+				ChampionName: championSelect.value
+			})
+		});
+
+		if (response.ok) {
+			alert("Config saved!");
+		} else {
+			alert("Save failed");
+		}
+	}
+
+	document.querySelectorAll('.lol-ability').forEach(ability => {
+	  const maxRank = parseInt(ability.dataset.maxRank);
+	  const dotsContainer = ability.querySelector('.lol-rank-dots');
+	  const minus = ability.querySelector('.minus');
+	  const plus = ability.querySelector('.plus');
+
+	  let currentRank = 0;
+	  const dots = [];
+
+	  // Build dots visually
+	  for (let i = 0; i < maxRank; i++) {
+		const dot = document.createElement('div');
+		dot.classList.add('lol-rank-dot');
+		dotsContainer.appendChild(dot);
+		dots.push(dot);
+	  }
+
+	  function canRankUpAnAbility() {
+		const total = getTotalAbilityRank();
+		return currentRank < maxRank && total < level;
+	  }
+
+	  function render() {
+		dots.forEach((dot, i) => {
+		  dot.classList.toggle('filled', i < currentRank);
+		});
+	  }
+
+	plus.addEventListener('click', () => {
+		if (currentRank < maxRank && canRankUpAnAbility()) {
+			currentRank++;
+			render();
+		}
+	  });
+
+	  minus.addEventListener('click', () => {
+		if (currentRank > 0) {
+		  currentRank--;
+		  render();
+		}
+	  });
+
+	  render();
 	});
+
+	levelSelect.addEventListener("change", async function () {
+		var i = levelSelect.selectedIndex;
+		level = levelSelect.options[i].value;
+		await updateDamageDisplay();
+	});
+
+	document.getElementById("saveConfigBtn").addEventListener("click", saveConfig);
+
+	console.log("Model.Config is null:", @((Model.Config == null).ToString().ToLower()));
+
+
+		async function init() {
+		let config = null;
+
+		@if (Model.Config != null)
+		{
+				<text>
+				config = @Html.Raw(JsonSerializer.Serialize(Model.Config));
+				console.log(config.ID);
+				</text>
+		}
+
+		if (config) {
+			syncUIWithConfig(config);
+			await updateDamageDisplay();
+			console.log(config.Level);
+		}
+	}
+
+	init();
 </script>

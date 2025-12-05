@@ -8,6 +8,17 @@ namespace Core.Models.Abilities
 {
     public class AbilityContext
     {
-        public Unit Caster;
+        public readonly Ability Ability;
+        public readonly Champion Caster;
+
+        // temporary workflow
+        public readonly Unit Target;
+
+        public AbilityContext(Ability ability, Champion caster, Unit target)
+        {
+            Ability = ability;
+            Caster = caster;
+            Target = target;
+        }
     }
 }

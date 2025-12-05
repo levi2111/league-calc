@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Models.Item
+namespace Core.Models.Items
 {
     public class Item
     {
         public readonly int Id;
         public readonly string Name;
-        public Dictionary<string, int> Stats { get; private set; }
+        public Dictionary<string, double> Stats { get; private set; }
         public double TotalCost;
         public double CombineCost;
         public int[] From;
@@ -18,7 +18,7 @@ namespace Core.Models.Item
         public string[] Gamemodes;
         public int MaxStack;
 
-        public Item(int id, string name, Dictionary<string, int> stats, double totalCost,
+        public Item(int id, string name, Dictionary<string, double> stats, double totalCost,
                     double combineCost, int[] from, int[] to, string[] gamemodes, int maxStack)
         {
             Id = id;

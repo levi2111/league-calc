@@ -17,19 +17,19 @@ namespace Core.Models
         public static int ID_COUNTER = 0;
 
         public int Id { get; }
-        public virtual int Level { get; protected set; }
+        public int Level { get; set; }
         public float CurrentHP { get; set; }
         public Inventory Inventory { get; set; }
         public bool IsMelee { get; }
         public Dictionary<string, float> Stats { get; set; } = new Dictionary<string, float>
         {
-            ["Level"] = 0,
             ["BaseHP"] = 0,
             ["BonusHP"] = 0,
             ["MaxHP"] = 0,
             ["HPPerLevel"] = 0,
             ["BaseAD"] = 0,
             ["BonusAD"] = 0,
+            ["AD"] = 0,
             ["ADPerLevel"] = 0,
             ["BaseAttackSpeed"] = 0,
             ["BonusAttackSpeed"] = 0,
@@ -113,6 +113,14 @@ namespace Core.Models
 
             BasicAttackResult basicAttackResult = new(this, target);
             return basicAttackResult;
+        }
+
+        public virtual bool LevelUp()
+        {
+            if (Level >= 18) return false;
+
+            Level++;
+            return true;
         }
     }
 }

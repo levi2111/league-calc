@@ -1,31 +1,357 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+    color: var(--bs-secondary-color);
+    text-align: end;
 }
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+    text-align: start;
 }
+
+
+/* Root container */
+.lol-stats-panel {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
+    padding: 10px 14px;
+    width: 640px;
+    max-width: 100%;
+    margin: 20px auto;
+    background: radial-gradient(circle at top, #1b1b27 0, #05060a 55%, #05060a 100%);
+    border-radius: 12px;
+    border: 1px solid rgba(210, 180, 90, 0.8);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.9) inset, 0 8px 20px rgba(0, 0, 0, 0.85);
+    color: #e4e2d8;
+    box-sizing: border-box;
+}
+
+    /* Slight bevel line at top */
+    .lol-stats-panel::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        pointer-events: none;
+    }
+
+/* Champion section */
+.lol-champ {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 4px;
+}
+
+.lol-champ-portrait {
+    width: 78px;
+    height: 78px;
+    border-radius: 10px;
+    background: radial-gradient(circle at 30% 20%, #505070 0, #161620 55%, #050509 100%);
+    border: 2px solid #b99a57;
+    box-shadow: 0 0 0 1px #000, 0 0 10px rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.lol-champ-portrait img {
+    width:100px;
+}
+
+.lol-champ-initials {
+    font-size: 26px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f5f3e0;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+}
+
+/* Level badge */
+.lol-champ-level {
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2px 10px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #f8f4d6;
+    background: linear-gradient(to bottom, #c8aa6e, #7c5e2a);
+    border-radius: 999px;
+    border: 1px solid #f4e3a2;
+    box-shadow: 0 0 0 1px #000, 0 2px 8px rgba(0, 0, 0, 0.95);
+}
+
+/* Main content */
+.lol-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Bars section */
+.lol-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.lol-bar {
+    position: relative;
+    height: 20px;
+    border-radius: 999px;
+    overflow: hidden;
+    background: #151820;
+    box-shadow: 0 0 0 1px #000, 0 0 6px rgba(0, 0, 0, 0.75) inset;
+}
+
+.lol-bar-hp {
+    border: 1px solid rgba(80, 255, 80, 0.4);
+}
+
+.lol-bar-mana {
+    border: 1px solid rgba(80, 160, 255, 0.4);
+}
+
+.lol-bar-fill {
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    transform-origin: left center;
+}
+
+.lol-bar-hp .lol-bar-fill {
+    background: linear-gradient( to right, #1a7f24, #2dbb31, #65e15f );
+}
+
+.lol-bar-mana .lol-bar-fill {
+    background: linear-gradient( to right, #1e3a8a, #2563eb, #38bdf8 );
+}
+
+.lol-bar-label {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+    font-size: 11px;
+    font-weight: 600;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Meta section: KDA + small stats */
+.lol-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 4px;
+}
+
+/* KDA + CS */
+.lol-kda-cs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 140px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    background: linear-gradient(to bottom, rgba(15, 15, 25, 0.9), rgba(5, 5, 10, 0.95));
+    border: 1px solid rgba(180, 150, 80, 0.5);
+    box-shadow: 0 0 0 1px #000, 0 2px 6px rgba(0, 0, 0, 0.8) inset;
+    font-size: 12px;
+}
+
+.lol-kda {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #f4e9c4;
+}
+
+.lol-cs,
+.lol-gold {
+    opacity: 0.85;
+}
+
+/* Stats grid */
+.lol-stats-grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    row-gap: 4px;
+    column-gap: 8px;
+    padding: 4px 6px;
+    border-radius: 8px;
+    background: radial-gradient(circle at top, rgba(30, 30, 45, 0.9), rgba(4, 4, 8, 0.98));
+    border: 1px solid rgba(45, 45, 60, 0.9);
+    box-shadow: 0 0 0 1px #000, 0 2px 8px rgba(0, 0, 0, 0.85) inset;
+}
+
+.lol-stat {
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    line-height: 1.2;
+}
+
+.lol-stat-label {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+    opacity: 0.7;
+    font-size: 10px;
+}
+
+.lol-stat-value {
+    font-weight: 600;
+    color: #f1eed9;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+    .lol-stats-panel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lol-main {
+        width: 100%;
+    }
+
+    .lol-meta {
+        flex-direction: column;
+    }
+
+    .lol-kda-cs {
+        min-width: 0;
+    }
+
+    .lol-stats-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+.lol-abilities {
+    display: flex;
+    gap: 12px;
+    margin: 12px auto;
+    justify-content: center;
+}
+
+.lol-ability {
+    width: 140px;
+    background: radial-gradient(circle at top, #1b1b27, #05060a 60%);
+    border-radius: 10px;
+    border: 1px solid rgba(210, 180, 90, 0.8);
+    box-shadow: 0 0 0 1px #000 inset, 0 6px 12px rgba(0, 0, 0, 0.85);
+    padding: 8px;
+    color: #e4e2d8;
+    font-family: system-ui, sans-serif;
+}
+
+.lol-ability-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 6px;
+}
+
+.lol-ability-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    background: linear-gradient(#30304a, #111218);
+    border: 1px solid #978443;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.lol-ability-name {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.lol-rank-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lol-rank-dots {
+    display: flex;
+    gap: 4px;
+}
+
+.lol-rank-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #2f2f3b;
+    border: 1px solid #474760;
+    transition: background 0.15s, border 0.15s, transform 0.15s;
+}
+
+    .lol-rank-dot.filled {
+        background: #c9b878;
+        border-color: #f0e8b0;
+        transform: scale(1.15);
+    }
+
+.lol-rank-controls {
+    display: flex;
+    gap: 4px;
+}
+
+.lol-rank-btn {
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 4px;
+    background: rgba(80, 70, 40, 0.5);
+    border: 1px solid #9c8645;
+    color: #f4eacb;
+    cursor: pointer;
+    line-height: 1;
+    text-align: center;
+}
+
+    .lol-rank-btn:hover {
+        filter: brightness(1.2);
+    }

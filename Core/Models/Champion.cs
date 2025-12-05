@@ -1,5 +1,6 @@
 ﻿using Core.Interfaces;
 using Core.Models.Abilities;
+using Core.Models.Results;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,9 @@ namespace Core.Models
         public Champion(BaseChampion baseChampion)
         {
             BaseChampion = baseChampion;
+            Stats["BaseAD"] = baseChampion.BaseAD;
+            Stats["AD"] = baseChampion.BaseAD;
+            Stats["ADPerLevel"] = baseChampion.ADPerLevel;
             Stats["HPRegen"] = baseChampion.BaseStaticHPRegen; // ?
             Stats["BaseHPRegen"] = baseChampion.BaseStaticHPRegen;
             Stats["BonusHPRegen"] = 0;
@@ -33,6 +37,42 @@ namespace Core.Models
             Stats["HealAndShieldPower"] = 0;
             Stats["Lifesteal"] = 0;
             Stats["Omnivamp"] = 0;
+        }
+
+        public AbilityResult? UseQ(Unit target)
+        {
+            if (Q.OnCooldown) return null;
+
+            AbilityContext abilityContext = new AbilityContext(Q, this, target);
+            AbilityResult result = new AbilityResult(abilityContext);
+            return result;
+        }
+
+        public AbilityResult? UseW(Unit target)
+        {
+            if (W.OnCooldown) return null;
+
+            AbilityContext abilityContext = new AbilityContext(W, this, target);
+            AbilityResult result = new AbilityResult(abilityContext);
+            return result;
+        }
+
+        public AbilityResult? UseE(Unit target)
+        {
+            if (E.OnCooldown) return null;
+
+            AbilityContext abilityContext = new AbilityContext(E, this, target);
+            AbilityResult result = new AbilityResult(abilityContext);
+            return result;
+        }
+
+        public AbilityResult? UseR(Unit target)
+        {
+            if (R.OnCooldown) return null;
+
+            AbilityContext abilityContext = new AbilityContext(R, this, target);
+            AbilityResult result = new AbilityResult(abilityContext);
+            return result;
         }
 
         public override string ToString()

@@ -12,7 +12,7 @@ namespace Core.Models.Abilities
     {
         private BaseAbility _baseAbility;
 
-        public int CurrentRank { get; private set; }
+        public int CurrentRank { get; set; }
         public double Cooldown { get; private set; }
         public DateTime? LastUsed { get; private set; }
         public TimeSpan CurrentCooldown
@@ -63,6 +63,26 @@ namespace Core.Models.Abilities
         public void ResetRank()
         {
             CurrentRank = -1;
+        }
+
+        // used for testing
+        public Damage TestUse(Champion caster, Unit receiver)
+        {
+            int rank = 4;
+            if (_baseAbility.UltimateAbility) rank = 2;
+            double baseDmg = _baseAbility.BaseDamage[rank];
+
+            double scalingDmg = 0;
+
+            // "AD" is needed for total AD here, not TotalAD
+            foreach (KeyValuePair<string, double[]> scaling in _baseAbility.Scalings)
+            {
+                scalingDmg += scaling.Value[rank] * caster.Stats[scaling.Key];
+            }
+
+            double totalDmg = baseDmg + scalingDmg;
+
+            return new Damage(totalDmg, _baseAbility.DamageType, caster, receiver);
         }
     }
 }

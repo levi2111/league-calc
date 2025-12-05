@@ -3,8 +3,128 @@
   "WorkspaceRootPath": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\ui\\pages\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|solutionrelative:ui\\pages\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\dal\\repositories\\configrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\configrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\ui\\pages\\test.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|solutionrelative:ui\\pages\\test.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA37A1B3-AD4C-42F3-841C-46CDA691A566}|BLL\\BLL.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\bll\\services\\configservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA37A1B3-AD4C-42F3-841C-46CDA691A566}|BLL\\BLL.csproj|solutionrelative:bll\\services\\configservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\champion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\champion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|solutionrelative:ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|solutionrelative:dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\dal\\repositories\\basechampionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\basechampionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\interfaces\\iconfigrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\interfaces\\iconfigrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\abilities\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\abilities\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA37A1B3-AD4C-42F3-841C-46CDA691A566}|BLL\\BLL.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\bll\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA37A1B3-AD4C-42F3-841C-46CDA691A566}|BLL\\BLL.csproj|solutionrelative:bll\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\dal\\repositories\\mockitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\mockitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\interfaces\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\interfaces\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA37A1B3-AD4C-42F3-841C-46CDA691A566}|BLL\\BLL.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\bll\\services\\basechampionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA37A1B3-AD4C-42F3-841C-46CDA691A566}|BLL\\BLL.csproj|solutionrelative:bll\\services\\basechampionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\dal\\repositories\\championjsonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\championjsonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\interfaces\\ibasechampionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\interfaces\\ibasechampionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\interfaces\\ibaseability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\interfaces\\ibaseability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\interfaces\\ibasechampion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\interfaces\\ibasechampion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\results\\abilityresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\results\\abilityresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\ui\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|solutionrelative:ui\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\abilities\\abilitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\abilities\\abilitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\dal\\repositories\\mockchampionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\mockchampionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA37A1B3-AD4C-42F3-841C-46CDA691A566}|BLL\\BLL.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\bll\\services\\samiraabilitiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA37A1B3-AD4C-42F3-841C-46CDA691A566}|BLL\\BLL.csproj|solutionrelative:bll\\services\\samiraabilitiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\ui\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|solutionrelative:ui\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\basestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\basestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\abilities\\baseability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,20 +135,8 @@
       "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\abilities\\abilityinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\abilities\\abilitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\abilities\\abilitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\results\\abilityresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\results\\abilityresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\dummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\dummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\results\\basicattackresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,100 +151,28 @@
       "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\effects\\effect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\champion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\champion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\basestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\basestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\basechampion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\basechampion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA37A1B3-AD4C-42F3-841C-46CDA691A566}|BLL\\BLL.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\bll\\services\\basechampionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA37A1B3-AD4C-42F3-841C-46CDA691A566}|BLL\\BLL.csproj|solutionrelative:bll\\services\\basechampionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\interfaces\\ibasechampionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\interfaces\\ibasechampionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\interfaces\\ibasechampion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\interfaces\\ibasechampion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\interfaces\\ibaseability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\interfaces\\ibaseability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\dal\\repositories\\testrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\testrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\dal\\repositories\\championjsonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\championjsonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\dal\\formatterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|solutionrelative:dal\\formatterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA37A1B3-AD4C-42F3-841C-46CDA691A566}|BLL\\BLL.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\bll\\services\\championabilityscripts\\samiraabilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA37A1B3-AD4C-42F3-841C-46CDA691A566}|BLL\\BLL.csproj|solutionrelative:bll\\services\\championabilityscripts\\samiraabilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IChampionAbilitiesScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Core\\Interfaces\\IChampionAbilitiesScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA37A1B3-AD4C-42F3-841C-46CDA691A566}|BLL\\BLL.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{CA37A1B3-AD4C-42F3-841C-46CDA691A566}|BLL\\BLL.csproj|solutionrelative:bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\interfaces\\ichampionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\interfaces\\ichampionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\damagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\damagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\ui\\helpers\\sessionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|solutionrelative:ui\\helpers\\sessionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\models\\primaryabilityresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\models\\primaryabilityresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\ui\\pages\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|solutionrelative:ui\\pages\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\ui\\pages\\test.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|solutionrelative:ui\\pages\\test.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\interfaces\\iunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -147,28 +183,12 @@
       "RelativeMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|solutionrelative:ui\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\dal\\repositories\\championrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\championrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\interfaces\\iabilityresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\interfaces\\iabilityresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA37A1B3-AD4C-42F3-841C-46CDA691A566}|BLL\\BLL.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\bll\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA37A1B3-AD4C-42F3-841C-46CDA691A566}|BLL\\BLL.csproj|solutionrelative:bll\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\interfaces\\istats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\interfaces\\istats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\interfaces\\ibasestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|solutionrelative:core\\interfaces\\ibasestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5968ED38-5361-4278-98F5-72F87D55E716}|DAL\\DAL.csproj|solutionrelative:dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\Services\\Formatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -193,10 +213,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\ui\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|solutionrelative:ui\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\ui\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CBD22E98-67F5-456A-A986-EE43999EA06B}|UI\\UI.csproj|solutionrelative:ui\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6292747-E492-45C3-9306-8ADB71EA5033}|Core\\Core.csproj|c:\\users\\levit\\source\\repos\\leaguecalculator\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -225,8 +241,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "DockedWidth": 236,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -234,293 +250,219 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AbilityContext.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Abilities\\AbilityContext.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Abilities\\AbilityContext.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Abilities\\AbilityContext.cs",
-              "RelativeToolTip": "Core\\Models\\Abilities\\AbilityContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T14:55:17.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AbilityInput.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Abilities\\AbilityInput.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Abilities\\AbilityInput.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Abilities\\AbilityInput.cs",
-              "RelativeToolTip": "Core\\Models\\Abilities\\AbilityInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T14:52:19.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AbilityResult.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Results\\AbilityResult.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Results\\AbilityResult.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Results\\AbilityResult.cs",
-              "RelativeToolTip": "Core\\Models\\Results\\AbilityResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T14:34:34.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Unit.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Unit.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Unit.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Unit.cs",
-              "RelativeToolTip": "Core\\Models\\Unit.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAqwHEAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T10:19:53.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BaseAbility.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Abilities\\BaseAbility.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Abilities\\BaseAbility.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Abilities\\BaseAbility.cs",
-              "RelativeToolTip": "Core\\Models\\Abilities\\BaseAbility.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T10:26:28.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ability.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Abilities\\Ability.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Abilities\\Ability.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Abilities\\Ability.cs",
-              "RelativeToolTip": "Core\\Models\\Abilities\\Ability.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAkwC8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T12:52:37.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BasicAttackResult.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Results\\BasicAttackResult.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Results\\BasicAttackResult.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Results\\BasicAttackResult.cs",
-              "RelativeToolTip": "Core\\Models\\Results\\BasicAttackResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T14:36:32.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Dummy.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Dummy.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Dummy.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Dummy.cs",
-              "RelativeToolTip": "Core\\Models\\Dummy.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T14:10:33.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EventResult.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Results\\EventResult.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Results\\EventResult.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Results\\EventResult.cs",
-              "RelativeToolTip": "Core\\Models\\Results\\EventResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T14:33:21.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Champion.cs",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Champion.cs",
               "RelativeDocumentMoniker": "Core\\Models\\Champion.cs",
               "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Champion.cs",
               "RelativeToolTip": "Core\\Models\\Champion.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA7wCgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAIA3wBUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T10:19:51.288Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Damage.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Damage.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Damage.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Damage.cs",
-              "RelativeToolTip": "Core\\Models\\Damage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ConfigService.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\BLL\\Services\\ConfigService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\ConfigService.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\BLL\\Services\\ConfigService.cs",
+              "RelativeToolTip": "BLL\\Services\\ConfigService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAMwEsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T10:26:28.289Z",
+              "WhenOpened": "2025-12-05T13:03:53.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\appsettings.json",
+              "RelativeDocumentMoniker": "UI\\appsettings.json",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\appsettings.json",
+              "RelativeToolTip": "UI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-05T12:21:59.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Test.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Pages\\Test.cshtml.cs",
+              "RelativeDocumentMoniker": "UI\\Pages\\Test.cshtml.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Pages\\Test.cshtml.cs",
+              "RelativeToolTip": "UI\\Pages\\Test.cshtml.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAvwHsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T13:08:57.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConfigRepository.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\Repositories\\ConfigRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\ConfigRepository.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\Repositories\\ConfigRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\ConfigRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwCsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T12:46:45.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Effect.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Effects\\Effect.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Effects\\Effect.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Effects\\Effect.cs",
-              "RelativeToolTip": "Core\\Models\\Effects\\Effect.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAwAoAAAA0AAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Program.cs",
+              "RelativeDocumentMoniker": "UI\\Program.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Program.cs",
+              "RelativeToolTip": "UI\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T15:36:34.447Z",
+              "WhenOpened": "2025-10-01T10:16:21.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test.cshtml",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Pages\\Test.cshtml",
+              "RelativeDocumentMoniker": "UI\\Pages\\Test.cshtml",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Pages\\Test.cshtml",
+              "RelativeToolTip": "UI\\Pages\\Test.cshtml",
+              "ViewState": "AgIAANkAAAAAAAAAAAAMwOkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T13:08:52.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DAL\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\AppDbContext.cs",
+              "RelativeToolTip": "DAL\\AppDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T10:32:08.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseChampionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\Repositories\\BaseChampionRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\BaseChampionRepository.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\Repositories\\BaseChampionRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\BaseChampionRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAlwBYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T10:35:42.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Config.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Config.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Config.cs",
+              "RelativeToolTip": "Core\\Models\\Config.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T18:40:43.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IConfigRepository.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IConfigRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IConfigRepository.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IConfigRepository.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IConfigRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T10:10:33.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Ability.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Abilities\\Ability.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Abilities\\Ability.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Abilities\\Ability.cs",
+              "RelativeToolTip": "Core\\Models\\Abilities\\Ability.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T12:52:37.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "BaseStats.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\BaseStats.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\BaseStats.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\BaseStats.cs",
-              "RelativeToolTip": "Core\\Models\\BaseStats.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\BLL\\Services\\ItemService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\ItemService.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\BLL\\Services\\ItemService.cs",
+              "RelativeToolTip": "BLL\\Services\\ItemService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBsAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T10:26:28.574Z",
+              "WhenOpened": "2025-11-03T11:17:20.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "BaseChampion.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\BaseChampion.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\BaseChampion.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\BaseChampion.cs",
-              "RelativeToolTip": "Core\\Models\\BaseChampion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAuAAAAAAAAAA==",
+              "Title": "MockItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\Repositories\\MockItemRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\MockItemRepository.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\Repositories\\MockItemRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\MockItemRepository.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAADgv5oAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T11:03:31.167Z",
+              "WhenOpened": "2025-12-02T14:58:45.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Items\\Item.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Items\\Item.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Items\\Item.cs",
-              "RelativeToolTip": "Core\\Models\\Items\\Item.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAABAAAAAAAAAAA==",
+              "Title": "IItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IItemRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IItemRepository.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IItemRepository.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T10:26:24.873Z",
+              "WhenOpened": "2025-12-02T15:27:22.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Inventory.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Inventory.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Inventory.cs",
-              "RelativeToolTip": "Core\\Models\\Inventory.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T10:26:27.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Stats.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Stats.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Stats.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Stats.cs",
-              "RelativeToolTip": "Core\\Models\\Stats.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T15:22:17.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "BaseChampionService.cs",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\BLL\\Services\\BaseChampionService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\BaseChampionService.cs",
               "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\BLL\\Services\\BaseChampionService.cs",
               "RelativeToolTip": "BLL\\Services\\BaseChampionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T09:54:07.228Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IBaseChampionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IBaseChampionRepository.cs",
-              "RelativeDocumentMoniker": "Core\\Interfaces\\IBaseChampionRepository.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IBaseChampionRepository.cs",
-              "RelativeToolTip": "Core\\Interfaces\\IBaseChampionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T10:42:32.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IBaseChampion.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IBaseChampion.cs",
-              "RelativeDocumentMoniker": "Core\\Interfaces\\IBaseChampion.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IBaseChampion.cs",
-              "RelativeToolTip": "Core\\Interfaces\\IBaseChampion.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA3wA8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T10:10:30.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IBaseAbility.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IBaseAbility.cs",
-              "RelativeDocumentMoniker": "Core\\Interfaces\\IBaseAbility.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IBaseAbility.cs",
-              "RelativeToolTip": "Core\\Interfaces\\IBaseAbility.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T12:28:40.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "TestRepository.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\Repositories\\TestRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Repositories\\TestRepository.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\Repositories\\TestRepository.cs",
-              "RelativeToolTip": "DAL\\Repositories\\TestRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T10:30:04.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 16,
               "Title": "ChampionJsonRepository.cs",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\Repositories\\ChampionJsonRepository.cs",
               "RelativeDocumentMoniker": "DAL\\Repositories\\ChampionJsonRepository.cs",
@@ -533,7 +475,293 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IBaseAbility.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IBaseAbility.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IBaseAbility.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IBaseAbility.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IBaseAbility.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T12:28:40.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IBaseChampion.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IBaseChampion.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IBaseChampion.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IBaseChampion.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IBaseChampion.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T10:10:30.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IBaseChampionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IBaseChampionRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IBaseChampionRepository.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IBaseChampionRepository.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IBaseChampionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T10:42:32.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AbilityResult.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Results\\AbilityResult.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Results\\AbilityResult.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Results\\AbilityResult.cs",
+              "RelativeToolTip": "Core\\Models\\Results\\AbilityResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T14:34:34.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "UI\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "UI\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-28T10:21:15.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 23,
+              "Title": "MockChampionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\Repositories\\MockChampionRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\MockChampionRepository.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\Repositories\\MockChampionRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\MockChampionRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T10:30:04.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AbilityContext.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Abilities\\AbilityContext.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Abilities\\AbilityContext.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Abilities\\AbilityContext.cs",
+              "RelativeToolTip": "Core\\Models\\Abilities\\AbilityContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T14:55:17.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SamiraAbilitiesService.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\BLL\\Services\\SamiraAbilitiesService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\SamiraAbilitiesService.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\BLL\\Services\\SamiraAbilitiesService.cs",
+              "RelativeToolTip": "BLL\\Services\\SamiraAbilitiesService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAArwFAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T09:38:09.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "UI\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Pages\\Index.cshtml",
+              "RelativeToolTip": "UI\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-01T09:49:52.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Unit.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Unit.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Unit.cs",
+              "RelativeToolTip": "Core\\Models\\Unit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T10:19:53.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Items\\Item.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Items\\Item.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Items\\Item.cs",
+              "RelativeToolTip": "Core\\Models\\Items\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T10:26:24.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Inventory.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Inventory.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Inventory.cs",
+              "RelativeToolTip": "Core\\Models\\Inventory.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T10:26:27.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Damage.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Damage.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Damage.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Damage.cs",
+              "RelativeToolTip": "Core\\Models\\Damage.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T10:26:28.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BaseStats.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\BaseStats.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\BaseStats.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\BaseStats.cs",
+              "RelativeToolTip": "Core\\Models\\BaseStats.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAEBVwAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T10:26:28.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BaseAbility.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Abilities\\BaseAbility.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Abilities\\BaseAbility.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Abilities\\BaseAbility.cs",
+              "RelativeToolTip": "Core\\Models\\Abilities\\BaseAbility.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T10:26:28.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AbilityInput.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Abilities\\AbilityInput.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Abilities\\AbilityInput.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Abilities\\AbilityInput.cs",
+              "RelativeToolTip": "Core\\Models\\Abilities\\AbilityInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T14:52:19.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BasicAttackResult.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Results\\BasicAttackResult.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Results\\BasicAttackResult.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Results\\BasicAttackResult.cs",
+              "RelativeToolTip": "Core\\Models\\Results\\BasicAttackResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T14:36:32.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Dummy.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Dummy.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Dummy.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Dummy.cs",
+              "RelativeToolTip": "Core\\Models\\Dummy.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:10:33.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EventResult.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Results\\EventResult.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Results\\EventResult.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Results\\EventResult.cs",
+              "RelativeToolTip": "Core\\Models\\Results\\EventResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T14:33:21.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Effect.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Effects\\Effect.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Effects\\Effect.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Effects\\Effect.cs",
+              "RelativeToolTip": "Core\\Models\\Effects\\Effect.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T15:36:34.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BaseChampion.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\BaseChampion.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\BaseChampion.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\BaseChampion.cs",
+              "RelativeToolTip": "Core\\Models\\BaseChampion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T11:03:31.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Stats.cs",
+              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Stats.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Stats.cs",
+              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Stats.cs",
+              "RelativeToolTip": "Core\\Models\\Stats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T15:22:17.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
               "Title": "FormatterService.cs",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\FormatterService.cs",
               "RelativeDocumentMoniker": "DAL\\FormatterService.cs",
@@ -546,20 +774,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "SamiraAbilities.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\BLL\\Services\\ChampionAbilityScripts\\SamiraAbilities.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\ChampionAbilityScripts\\SamiraAbilities.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\BLL\\Services\\ChampionAbilityScripts\\SamiraAbilities.cs",
-              "RelativeToolTip": "BLL\\Services\\ChampionAbilityScripts\\SamiraAbilities.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAgwFcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T09:36:51.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 40,
               "Title": "BLL.csproj",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\BLL\\BLL.csproj",
               "RelativeDocumentMoniker": "BLL\\BLL.csproj",
@@ -572,32 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IChampionAbilitiesScript.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IChampionAbilitiesScript.cs",
-              "RelativeDocumentMoniker": "Core\\Interfaces\\IChampionAbilitiesScript.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IChampionAbilitiesScript.cs",
-              "RelativeToolTip": "Core\\Interfaces\\IChampionAbilitiesScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T11:52:53.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IChampionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IChampionRepository.cs",
-              "RelativeDocumentMoniker": "Core\\Interfaces\\IChampionRepository.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IChampionRepository.cs",
-              "RelativeToolTip": "Core\\Interfaces\\IChampionRepository.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T10:10:33.612Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 41,
               "Title": "DamageType.cs",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\DamageType.cs",
               "RelativeDocumentMoniker": "Core\\Models\\DamageType.cs",
@@ -605,23 +795,12 @@
               "RelativeToolTip": "Core\\Models\\DamageType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T10:26:28.122Z"
+              "WhenOpened": "2025-10-20T10:26:28.122Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "SessionHelper.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Helpers\\SessionHelper.cs",
-              "RelativeDocumentMoniker": "UI\\Helpers\\SessionHelper.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Helpers\\SessionHelper.cs",
-              "RelativeToolTip": "UI\\Helpers\\SessionHelper.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T15:49:25.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 42,
               "Title": "PrimaryAbilityResource.cs",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\PrimaryAbilityResource.cs",
               "RelativeDocumentMoniker": "Core\\Models\\PrimaryAbilityResource.cs",
@@ -629,36 +808,12 @@
               "RelativeToolTip": "Core\\Models\\PrimaryAbilityResource.cs",
               "ViewState": "AgIAADoAAAAAAAAAAADwv0wAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T11:24:53.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Test.cshtml",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Pages\\Test.cshtml",
-              "RelativeDocumentMoniker": "UI\\Pages\\Test.cshtml",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Pages\\Test.cshtml",
-              "RelativeToolTip": "UI\\Pages\\Test.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-20T13:08:52.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Test.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Pages\\Test.cshtml.cs",
-              "RelativeDocumentMoniker": "UI\\Pages\\Test.cshtml.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Pages\\Test.cshtml.cs",
-              "RelativeToolTip": "UI\\Pages\\Test.cshtml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAmwB8AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T13:08:57.045Z",
+              "WhenOpened": "2025-10-20T11:24:53.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 43,
               "Title": "IUnit.cs",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IUnit.cs",
               "RelativeDocumentMoniker": "Core\\Interfaces\\IUnit.cs",
@@ -666,48 +821,25 @@
               "RelativeToolTip": "Core\\Interfaces\\IUnit.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T13:09:39.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Program.cs",
-              "RelativeDocumentMoniker": "UI\\Program.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Program.cs",
-              "RelativeToolTip": "UI\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAewBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T10:16:21.277Z",
+              "WhenOpened": "2025-10-23T13:09:39.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ChampionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\Repositories\\ChampionRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Repositories\\ChampionRepository.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\Repositories\\ChampionRepository.cs",
-              "RelativeToolTip": "DAL\\Repositories\\ChampionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T10:35:42.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 44,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "UI\\Pages\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "UI\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAB0AAABbAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAIBJwB0AAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-03T13:34:15.636Z"
+              "WhenOpened": "2025-11-03T13:34:15.636Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 45,
               "Title": "IAbilityResource.cs",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IAbilityResource.cs",
               "RelativeDocumentMoniker": "Core\\Interfaces\\IAbilityResource.cs",
@@ -715,59 +847,25 @@
               "RelativeToolTip": "Core\\Interfaces\\IAbilityResource.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T11:13:39.918Z"
+              "WhenOpened": "2025-10-20T11:13:39.918Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ItemService.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\BLL\\Services\\ItemService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\ItemService.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\BLL\\Services\\ItemService.cs",
-              "RelativeToolTip": "BLL\\Services\\ItemService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T11:17:20.264Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "IStats.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IStats.cs",
-              "RelativeDocumentMoniker": "Core\\Interfaces\\IStats.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IStats.cs",
-              "RelativeToolTip": "Core\\Interfaces\\IStats.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T14:30:39.783Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 46,
               "Title": "IBaseStats.cs",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IBaseStats.cs",
               "RelativeDocumentMoniker": "Core\\Interfaces\\IBaseStats.cs",
               "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\IBaseStats.cs",
               "RelativeToolTip": "Core\\Interfaces\\IBaseStats.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAIBJwA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T12:23:41.208Z"
+              "WhenOpened": "2025-10-02T12:23:41.208Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "DAL\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\AppDbContext.cs",
-              "RelativeToolTip": "DAL\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T10:32:08.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "Formatter.cs",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\Services\\Formatter.cs",
               "RelativeDocumentMoniker": "DAL\\Services\\Formatter.cs",
@@ -778,7 +876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "CDragonChampionRepository.cs",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\Repositories\\CDragonChampionRepository.cs",
               "RelativeDocumentMoniker": "DAL\\Repositories\\CDragonChampionRepository.cs",
@@ -789,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "Stat.cs",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\Stat.cs",
               "RelativeDocumentMoniker": "Core\\Models\\Stat.cs",
@@ -800,43 +898,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 55,
               "Title": "ITotalStats.cs",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\ITotalStats.cs",
               "RelativeDocumentMoniker": "Core\\Interfaces\\ITotalStats.cs",
               "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Interfaces\\ITotalStats.cs",
               "RelativeToolTip": "Core\\Interfaces\\ITotalStats.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T12:11:15.647Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 54,
               "Title": "TotalStats.cs",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\TotalStats.cs",
               "RelativeDocumentMoniker": "Core\\Models\\TotalStats.cs",
               "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Models\\TotalStats.cs",
               "RelativeToolTip": "Core\\Models\\TotalStats.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T12:24:43.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 56,
               "Title": "ChampionObjectTransformer.cs",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\Services\\ChampionObjectTransformer.cs",
               "RelativeDocumentMoniker": "DAL\\Services\\ChampionObjectTransformer.cs",
               "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\Services\\ChampionObjectTransformer.cs",
               "RelativeToolTip": "DAL\\Services\\ChampionObjectTransformer.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T12:06:32.072Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "DAL.csproj",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\DAL\\DAL.csproj",
               "RelativeDocumentMoniker": "DAL\\DAL.csproj",
@@ -849,20 +944,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 51,
               "Title": "UI.csproj",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\UI.csproj",
               "RelativeDocumentMoniker": "UI\\UI.csproj",
               "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\UI.csproj",
               "RelativeToolTip": "UI\\UI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-10-01T14:01:40.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 52,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "UI\\Pages\\Index.cshtml.cs",
@@ -870,23 +965,12 @@
               "RelativeToolTip": "UI\\Pages\\Index.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T11:40:57.425Z"
+              "WhenOpened": "2025-10-01T11:40:57.425Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "UI\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\UI\\Pages\\Index.cshtml",
-              "RelativeToolTip": "UI\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-01T09:49:52.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 53,
               "Title": "Core.csproj",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\Core\\Core.csproj",
               "RelativeDocumentMoniker": "Core\\Core.csproj",
@@ -899,19 +983,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 57,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\BLL\\Class1.cs",
               "RelativeDocumentMoniker": "BLL\\Class1.cs",
               "ToolTip": "C:\\Users\\levit\\source\\repos\\LeagueCalculator\\BLL\\Class1.cs",
               "RelativeToolTip": "BLL\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T09:50:47.867Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
